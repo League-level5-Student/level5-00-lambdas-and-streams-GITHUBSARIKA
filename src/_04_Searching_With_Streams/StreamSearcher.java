@@ -15,9 +15,9 @@ public class StreamSearcher {
 		//   elements that match the String parameter.
 		counting=counting.filter((String s)->{
 			if(s.equals(strToCount)) {
-				return false;
+				return true;
 			}else {
-				return true;                                                          
+				return false;                                                          
 			}
 		});
 		//4. Return the count of the filtered stream.
